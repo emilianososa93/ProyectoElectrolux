@@ -1,0 +1,5 @@
+C:\Users\emiliano\Documents\Visual Studio 2015\Projects\ProyectoElectrolux\MiLibreria\obj\Debug\MiLibreria.csprojResolveAssemblyReference.cache
+C:\Users\emiliano\Documents\Visual Studio 2015\Projects\ProyectoElectrolux\MiLibreria\bin\Debug\MiLibreria.dll
+C:\Users\emiliano\Documents\Visual Studio 2015\Projects\ProyectoElectrolux\MiLibreria\bin\Debug\MiLibreria.pdb
+C:\Users\emiliano\Documents\Visual Studio 2015\Projects\ProyectoElectrolux\MiLibreria\obj\Debug\MiLibreria.dll
+C:\Users\emiliano\Documents\Visual Studio 2015\Projects\ProyectoElectrolux\MiLibreria\obj\Debug\MiLibreria.pdb
