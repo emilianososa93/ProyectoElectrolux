@@ -1,0 +1,111 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" Tagprefix="asp" Runat="server" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Modular Business
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat ="server">
+<title >Electrolux | Argentina </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.setup.js"></script>
+    <style type="text/css">
+        .auto-style1 {
+            left: 1px;
+            top: 1px;
+            height: 16px;
+        }
+        .auto-style3 {
+            width: 654px;
+            height: 124px;
+            margin-left: 0px;
+        }
+        .auto-style4 {
+            float: left;
+            width: 958px;
+            height: 105px;
+        }
+        .auto-style5 {
+            height: 78px;
+        }
+        .auto-style6 {
+            width: 135px;
+        }
+        </style>
+</head>
+ <link href="images/demo/electrolux-logo.ico" type="images/demo/electrolux-logo" rel="shortcuticon icon" />
+<body id="top" style="background-color: #000000">
+    <form id="form1" runat="server" style="background-color: #000000">
+<div class="wrapper col1" style="background-color: #1c203f">
+  <div id="topbar">
+    <p>Tel: 3492 - 659592| Mail: Emiliano_sosa93@hotmail.com</p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2" style="background-color: #FFFFFF">
+  <div id="header">
+      <div class="auto-style4" align="center">
+          <h1 class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img alt="logo" class="auto-style3" src="images/demo/logo.png" align="middle" /></h1>
+        <p>&nbsp;</p>
+      <p style="color: #000000; font-size: medium; font-weight: bold; font-style: oblique;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sitio Nº 1 de Electrodomesticos</p>
+    </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <br class="clear" />
+    </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3" style="background-color: #000000">
+  <div id="topnav" class="auto-style1" style="background-color: #000000">
+    <ul style="background-color: #000000">
+      <li class="active"><a href="Inicio.aspx" style="background-color: #000000">Inicio</a></li>
+      <li><a href="#" style="background-color: #000000">Administración</a>
+          <ul>
+          <li><a href="Clientes.aspx" style="background-color: #000000">Clientes</a></li>
+          <li><a href="Empleados.aspx" style="background-color: #000000">Empleados</a></li>
+          <li><a href="Productos.aspx" style="background-color: #000000">Productos</a></li>          
+          <li><a href="Sucursales.aspx" style="background-color: #000000">Sucursales</a></li>
+        </ul>
+      </li> 
+      <li class="auto-style6"><a href="#" style="background-color: #000000"> Presupuestado</a>
+          <ul>
+              <li><a href="Presupuestado.aspx" style="background-color: #000000">Crear Nuevo</a></li>
+              <li><a href="ReportePresupuestos.aspx" style="background-color: #000000">Listado</a></li>
+        </ul>
+      </li>
+        
+      <li><a href="Nosotros.aspx" style="background-color: #000000"> Nosotros</a></li>
+      <li><a href="Contacto.aspx" style="background-color: #000000">Contacto</a></li>
+      
+    </ul>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4" style="background-color: #000000">
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col7" style="background-color: #000000">
+  <div id="copyright" style="background-color: #000000">
+    <p class="fl_left">Copyright &copy; 2017 - Todos los derechos reservados - <a href="#" style="background-color: #000000">Emiliano H. Sosa</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates" style="background-color: #000000">Systems E&E</a></p>
+  </div>
+</div>
+    </form>
+</body>
+</html>
